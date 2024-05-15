@@ -1,0 +1,49 @@
+/* Estilos para el footer */
+footer {
+
+        bottom: 0;
+        width: 100%;
+        background-color: #222; /* Color de fondo oscuro */
+        color: #fff; /* Color de texto blanco */
+        padding: 20px 0; /* Espaciado interno */
+      
+      
+  }
+  
+  footer h4 {
+    color: #fff; /* Color del título blanco */
+  }
+  
+  footer ul {
+    list-style: none; /* Quita los estilos de lista */
+    padding: 0; /* Quita el espaciado interno */
+  }
+  
+  footer ul li {
+    margin-bottom: 10px; /* Espaciado entre elementos */
+  }
+  
+  footer ul li i {
+    margin-right: 10px; /* Espaciado a la derecha del ícono */
+  }
+  
+  .social-links li {
+    display: inline-block; /* Muestra los íconos social en línea */
+    margin-right: 10px; /* Espaciado entre íconos */
+  }
+  
+  .social-links li a {
+    color: #fff; /* Color de los íconos social blanco */
+    font-size: 20px; /* Tamaño de los íconos */
+  }
+  
+  .social-links li a:hover {
+    color: #ccc; /* Cambia el color de los íconos social al pasar el ratón */
+  }
+  
+  /* Estilos para el texto de derechos de autor */
+  footer p {
+    margin-top: 20px; /* Espaciado superior */
+    font-size: 14px; /* Tamaño de fuente */
+  }
+  

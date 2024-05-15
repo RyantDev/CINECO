@@ -1,0 +1,59 @@
+/* You can add global styles to this file, and also import other style files */
+/* src/styles.css */
+
+:root {
+    /* Modo claro */
+    --background-color-light: #ffffff;
+    --text-color-light: #333333;
+  
+    /* Modo oscuro */
+    --background-color-dark: #333333;
+    --text-color-dark: #ffffff;
+  }
+  
+/* src/styles.css */
+
+body {
+    /* Por defecto, usar el modo claro */
+    background-color: var(--background-color-light);
+    color: var(--text-color-light);
+  }
+  
+  /* Aplicar estilos específicos para el modo oscuro */
+  body.dark-mode {
+    background-color: var(--background-color-dark);
+    color: var(--text-color-dark);
+  }
+  .switch-button {
+    background-color: transparent;
+    border: none;
+    padding: 0;
+    cursor: pointer;
+    width: 40px; /* Ancho del botón */
+    height: 40px; /* Altura del botón */
+  }
+  
+  .switch-icon {
+    width: 28px; /* Tamaño del icono */
+    height: 28px; /* Tamaño del icono */
+  }
+  
+  .switch-toggle {
+    transition: all 0.3s ease;
+  }
+  
+  .dark-mode .switch-toggle {
+    transform: translateX(18px); /* Ajusta el desplazamiento del interruptor */
+  }
+  
+  
+
+body {
+
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+ 
+
+}
+
+html, body { height: 100%; }
+body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }
